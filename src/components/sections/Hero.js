@@ -17,7 +17,10 @@ const Hero = () => {
             {data.detail}
             <Line/>
           </Detail>
-          <Title>{data.title}<span>{data.titleColor}</span>!</Title>
+          <Title>
+            {data.titleI}<br/>
+            {data.titleII}<br/>
+            {data.titleIII}<span>{data.titleColor}</span>!</Title>
           <Text>{data.text}</Text>
           <Button href='https://wa.me/5519983564345' target='blank'>{data.buttonText}<Arrow/></Button>
         </Infos>
@@ -42,7 +45,6 @@ const Container = styled.section`
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  /* height: 85vh; */
 
   @media (max-width: 800px) {
     flex-direction: column;
@@ -51,9 +53,8 @@ const Container = styled.section`
 `
 
 const Infos = styled.div`
-  padding: 160px 30px 200px 8%;
-  width: 60%;
-
+  width: auto;
+  padding: 160px 30px 240px 8%;
   @media (max-width: 800px) {
     width: 100%;
     padding-bottom: 50px;
@@ -61,10 +62,11 @@ const Infos = styled.div`
 `
 
 const Title = styled.h1`
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #ffff;
-  width: 80%;
-  margin: 40px 0 20px 0;
+  width: 100%;
+  line-height: 4.5rem;
+  margin: 50px 0 40px 0;
   animation: Reveal .5s ease-in forwards;
   transform: translateY(25px);
   opacity: 0;
@@ -151,7 +153,7 @@ const Button = styled.a`
 `
 
 const Image = styled.div`
-  width: 40%;
+  width: 55%;
   position: relative;
   z-index: 0;
   .imgHero {
@@ -161,7 +163,7 @@ const Image = styled.div`
 
   @media (max-width: 800px) {
     width: 100%;
-    height: 400px;
+    height: 300px;
   }
 `
 

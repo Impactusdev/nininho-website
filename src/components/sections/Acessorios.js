@@ -170,6 +170,7 @@ const Text = styled.p`
   max-width: 400px;
   color: #D9D9D9;
   margin: 30px 0;
+  line-height: 1.5rem;
 
   @media (max-width: 800px) {
     width: 75%;

@@ -1,6 +1,6 @@
 export const intro = {
   title: 'Acessórios',
-  text: 'Veja a baixo todos os acessórios automotivos que temos a venda em nosso estabelecimento, alarmes, sons, rádios e muito mais.',
+  text: 'Veja a baixo alguns dos acessórios automotivos que temos a venda em nosso estabelecimento, alarmes, sons, rádios e muito mais.',
   buttonText: 'Saiba mais',
 }
 

@@ -13,8 +13,8 @@ export const data = {
     Link1: 'Som',
     Link2: 'Alarme',
     Link3: 'Insulfilm',
-    Link4: 'Vidro Elétrico',
-    Link5: 'Ultra LED',
+    Link4: 'Ultra LED',
+    Link5: 'Vidro e trava elétrica',
   },
   contato: {
     title: 'Contato',

@@ -48,11 +48,11 @@ const Servicos = () => {
             <TitleCard>{D.Cards.title5}</TitleCard>
             <TextCard>{D.Cards.text5}</TextCard>
           </Card>
-          <Card>
+          {/* <Card>
             <IconConcerto/>
             <TitleCard>{D.Cards.title6}</TitleCard>
             <TextCard>{D.Cards.text6}</TextCard>
-          </Card>
+          </Card> */}
           <Card>
             <IconMais/>
             <TitleCard>{D.Cards.title7}</TitleCard>
@@ -98,12 +98,15 @@ const Cards = styled.div`
   margin-top: 150px;
 
   @media (max-width: 800px) {
-    margin-top: 100px;
+    margin-top: 50px;
+    grid-template-columns: repeat(1, minmax(100px, 280px));
+    gap: 60px 30px;
+    justify-content: flex-start;
   }
 `
 const Card = styled.div`
   @media (max-width: 800px) {
-    margin-bottom: 50px;
+    svg { width: 30px;}
     &:last-child {
       margin-bottom: 0;
     }
@@ -113,6 +116,10 @@ const TitleCard = styled.h2`
   font-size: 1.8rem;
   color: white;
   margin: 30px 0 15px;
+
+  @media (max-width: 800px) {
+    margin: 15px 0 10px;
+  }
 `
 const TextCard = styled.p`
   color: #d9d9d9;

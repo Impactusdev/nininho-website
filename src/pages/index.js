@@ -21,7 +21,7 @@ const IndexPage = () => {
       <Section.Servicos/>
       <Section.Acessorios/>
       <Section.Unidade/>
-      <Section.CTA/>
+      {/* <Section.CTA/> */}
       <Component.Footer/>
       <Component.GlobalStyle/>
     </>

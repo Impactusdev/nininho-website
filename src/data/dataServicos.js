@@ -5,7 +5,7 @@ export const data = {
 
 export const Cards = {
   title1: 'Som',
-  text1: 'Instalação de sons automotivos, rádios, equipamentos com Bluetooth.',
+  text1: 'Instalação de sons automotivos, rádios, equipamentos com Bluetooth, multimídias, falantes e potências, etc...',
 
   title2: 'Alarme',
   text2: 'Dispositivos de alarme para furtos, roubos.',
@@ -14,7 +14,7 @@ export const Cards = {
   text3: 'Para dar mais estilo e sofisticação ao seu carro, sem deixar de lado a proteção, privacidade, climatização e segurança. ',
 
   title4: 'Vidro e trava',
-  text4: 'Instalação de vidros elétricos para seu veículo. ',
+  text4: 'Instalação e concerto de travas, vidros elétricos e fechaduras para seu veículo. ',
 
   title5: 'Ultra LED',
   text5: 'Instalação de lâmpadas Ultra LEDs para os faróis de seu veículo. ',

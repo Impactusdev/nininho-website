@@ -19,6 +19,7 @@ import Facebook from './Facebook'
 import Instagram from './Instagram'
 import Toogle from './Toogle'
 import CloseToggle from './CloseToggle'
+import Telefone from './Telefone'
 
 export{
   Logo,
@@ -42,4 +43,5 @@ export{
   WhatsappFooter,
   Toogle,
   CloseToggle,
+  Telefone,
 }

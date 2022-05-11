@@ -1,10 +1,11 @@
 import React from 'react'
 // style
 import styled from 'styled-components'
-import { IconLocal } from '../../icons'
+import { IconLocal, Telefone } from '../../icons'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const Unidade = () => {
+
   return(
     <Container>
       <Unidades>
@@ -14,11 +15,16 @@ const Unidade = () => {
           </Button>
           <Title>Unidade 02</Title>
           <Location>Av. Dr. Alberto Sarmento, 276</Location>
+          <ButtonUnidade href='tel:32438560'>
+            <Telefone/>
+            3243-8560
+          </ButtonUnidade>
         </Infos>
         <StaticImage
           src='../../images/imgHero.png'
           style={{ position: 'absolute' }}
           className='img'
+          quality={100}
         />
       </Unidades>
       <Unidades>
@@ -28,11 +34,16 @@ const Unidade = () => {
           </Button>
           <Title>Unidade 01</Title>
           <Location>Etelvina de Sales Alves, 06</Location>
+          <ButtonUnidade href='tel:32692208'>
+            <Telefone/>
+            3269-2208
+          </ButtonUnidade>
         </Infos>
         <StaticImage
           src='../../images/imgUnidade02.png'
           style={{ position: 'absolute' }}
           className='img'
+          quality={100}
         />
       </Unidades>
     </Container>
@@ -62,6 +73,19 @@ const Button = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+`
+const ButtonUnidade = styled.a`
+  background: #2e2e2e;
+  text-decoration: none;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border-radius: 50px;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  svg { margin-right: 10px;}
 `
 const Unidades = styled.div`
   display: flex;

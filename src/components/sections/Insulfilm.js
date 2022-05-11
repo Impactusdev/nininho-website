@@ -81,6 +81,10 @@ const Container = styled.section`
   flex-direction: column;
   background: white;
   padding: 200px 8%;
+
+  @media (max-width: 800px) {
+    padding: 100px 8%;
+  }
 `
 
 
@@ -106,7 +110,7 @@ const Infos = styled.div`
 
   @media (max-width: 800px) {
     align-items: start;
-    width: 90%;
+    width: 100%;
   }
 `
 
@@ -120,7 +124,7 @@ const Title = styled.h2`
 `
 
 const Text = styled.p`
-  width: 50%;
+  width: 400px;
   text-align: end;
   margin: 20px 0;
   color: #707070;
@@ -128,7 +132,7 @@ const Text = styled.p`
 
   @media (max-width: 800px) {
     text-align: start;
-    width: 80%;
+    width: 100%;
   }
 `
 
@@ -158,14 +162,20 @@ const Cards = styled.div`
   gap: 60px 60px;
   justify-content: center;
   padding: 200px 5%;
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(1, minmax(100%, 100%));
+    gap: 80px 10px;
+    justify-content: flex-start;
+    padding: 100px 0;
+  }
 `
 
 const Card = styled.div`
   width: fit-content;
 
   @media (max-width: 800px) {
-    width: 80%;
-    margin-bottom: 70px;
+    width: 90%;
     &:last-child {
       margin-bottom: 0;
     }
@@ -189,6 +199,10 @@ const TextCard = styled.p`
 
 const Models = styled.div`
   padding: 50px 8%;
+
+  @media (max-width: 800px) {
+    padding: 0 8%;
+  }
 `
 
 const Flex1 = styled.div`
@@ -224,6 +238,7 @@ const Flex2 = styled.div`
   @media (max-width: 800px) {
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
   }
 `
 

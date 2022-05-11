@@ -42,7 +42,7 @@ const Container = styled.div`
 
   @media (max-width: 800px) {
     flex-direction: column-reverse;
-    padding: 100px 8%;
+    padding: 70px 8%;
   }
 `
 
