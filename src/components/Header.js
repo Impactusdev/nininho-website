@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 // Logo
-import { Logo, Toogle, CloseToggle } from '../icons'
+import { Logo, Toogle, CloseToggle, Whatsapp } from '../icons'
 //Style
 import styled from 'styled-components'
 
@@ -46,13 +46,32 @@ const Header = () => {
           <Texts href='#Acessórios'>Acessórios</Texts>
         </Menu>                                      
       </Container>
+
+      <WhatsappButton href='https://wa.me/5519983564345' target='blank'>
+        <Whatsapp/>
+      </WhatsappButton>
     </>
   )
 }
 export default Header
 
 
-
+const WhatsappButton = styled.a`
+  width: 80px;
+  height: 80px;
+  background: #34af23;
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 50px;
+  bottom: 60px;
+  z-index: 996;
+  svg {
+    transform: scale(3);
+  }
+`
 const Nav = styled.div`
   display: none;
   position: fixed;

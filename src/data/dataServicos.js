@@ -14,13 +14,13 @@ export const Cards = {
   text3: 'Para dar mais estilo e sofisticação ao seu carro, sem deixar de lado a proteção, privacidade, climatização e segurança. ',
 
   title4: 'Vidro e trava',
-  text4: 'Instalação e concerto de travas, vidros elétricos e fechaduras para seu veículo. ',
+  text4: 'Instalação e conserto de travas, vidros elétricos e fechaduras para seu veículo. ',
 
   title5: 'Ultra LED',
   text5: 'Instalação de lâmpadas Ultra LEDs para os faróis de seu veículo. ',
 
   title6: 'Concerto',
-  text6: 'Efetuamos o concerto de vidros e travas elétricas e fechaduras.',
+  text6: 'Efetuamos o conserto de vidros e travas elétricas e fechaduras.',
 
   title7: 'Muito mais...',
   text7: 'Chame-nos e confira mais de nossos serviços.',

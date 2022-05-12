@@ -21,7 +21,7 @@ export const card3 = {
 
 export const models = {
   detail: 'Modelos',
-  text: 'Trabalhamos com insulfilm (películas) de qualidade para atender as suas necessidades.',
+  text: 'Trabalhamos com insulfilm (películas) de qualidade para atender às suas necessidades.',
   type1: 'Automotiva',
   type2: 'Residencial',
   type3: 'Comercial',

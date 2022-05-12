@@ -4,6 +4,6 @@ export const data = {
   titleII: 'do jeito que você ',
   titleIII: 'sempre ',
   titleColor: 'sonhou',
-  text: 'Somos uma loja tradicional na cidade de Campinas que presa o bom atendimento e ótima qualidade em nosso serviços.',
+  text: 'Somos uma loja tradicional na cidade de Campinas que preza o bom atendimento e ótima qualidade em nossos serviços. Visite uma de nossas duas unidades!',
   buttonText: 'Fale conosco'
 }

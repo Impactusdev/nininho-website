@@ -7,6 +7,7 @@ import Servicos from './Servicos'
 import Acessorios from './Acessorios'
 import Unidade from './Unidade'
 import CTA from './CTA'
+import Interno from './Interno'
 
 export {
   Hero,
@@ -18,4 +19,5 @@ export {
   Acessorios,
   Unidade,
   CTA,
+  Interno,
 }

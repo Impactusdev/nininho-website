@@ -18,6 +18,7 @@ const IndexPage = () => {
       <Section.VisualFilm/>
       <Section.Alarmes/>
       <Section.Sobre/>
+      <Section.Interno/>
       <Section.Servicos/>
       <Section.Acessorios/>
       <Section.Unidade/>
